@@ -1,0 +1,63 @@
+﻿@model Temperature.Models.TemperatureModel
+
+@{
+    ViewData["Title"] = "TemperatureCalculator";
+    var result = ViewBag.result;
+    var type = ViewBag.type;
+}
+
+<h1>Temperature Calculator</h1>
+
+<hr />
+
+         
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+
+            @using (Html.BeginForm("calculate", "Home", FormMethod.Post))
+            {
+
+                <form class="">
+                    <div class="mb-3">
+                        <label for="degree" class="form-label">Celsius </label>
+                        @Html.EditorFor(model => model.celsius, new { htmlAttributes = new { @class = "form-control" } })
+
+
+                    </div>
+                    <div class="mb-3">
+                        <label for="fahrenheit" class="form-label">Fahrenheit </label>
+                        @Html.EditorFor(model => model.fahrenheit, new { htmlAttributes = new { @class = "form-control" } })
+
+                    </div>
+
+                    <button type="submit" class="btn btn-primary" value="calculate">Calculate</button>
+                </form>
+
+
+            }
+
+        </div>
+    </div>
+
+    @if (TempData["success"] != null)
+    {
+        
+
+        if (TempData["success"].Equals(true))
+        {
+               
+                <h1>@type is @result</h1>
+           
+        }
+        else
+        {
+
+        }
+
+
+    }
+</div>
+
+

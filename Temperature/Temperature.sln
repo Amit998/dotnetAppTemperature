@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Temperature", "Temperature\Temperature.csproj", "{BC2ACC09-5EBD-40D4-981C-BA6B58550CAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTempCal", "TestTempCal\TestTempCal.csproj", "{4520AB03-FF68-42A7-97D6-2A5E0A68290D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC2ACC09-5EBD-40D4-981C-BA6B58550CAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC2ACC09-5EBD-40D4-981C-BA6B58550CAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC2ACC09-5EBD-40D4-981C-BA6B58550CAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC2ACC09-5EBD-40D4-981C-BA6B58550CAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4520AB03-FF68-42A7-97D6-2A5E0A68290D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4520AB03-FF68-42A7-97D6-2A5E0A68290D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4520AB03-FF68-42A7-97D6-2A5E0A68290D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4520AB03-FF68-42A7-97D6-2A5E0A68290D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9CA23B00-0ECD-4477-BE64-78D2ED597F26}
+	EndGlobalSection
+EndGlobal
